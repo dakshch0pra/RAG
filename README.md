@@ -1,8 +1,8 @@
-#Mini RAG System
+**Mini RAG System**
 
 A professional Retrieval-Augmented Generation (RAG) system built with modern components for document-based question answering. Features a user-friendly Gradio interface, FastAPI backend, and integration with leading AI services.
 
-🏗️ System Architecture
+ **System Architecture**
 text
 graph TD
     A[User Interface - Gradio] --> B[FastAPI Backend]
@@ -40,7 +40,7 @@ Reranking: Cohere's rerank-english-v3.0 for relevance refinement
 
 Generation: Gemini 2.0 Flash for answer synthesis
 
-⚙️ Configuration Parameters
+ **Configuration Parameters**
 Document Chunking Settings
 python
 CHUNK_SIZE = 800          # Words per chunk
@@ -98,7 +98,7 @@ Gradio Interface: http://localhost:7860
 FastAPI Backend: http://localhost:8001
 
 Usage Workflow
-📚 Knowledge Base Management
+# Knowledge Base Management
 
 Upload PDF or text files
 
@@ -106,7 +106,7 @@ Add manual text content
 
 View and manage document chunks
 
-💬 Interactive Chat
+# Interactive Chat
 
 Ask questions about your documents
 
@@ -123,7 +123,7 @@ Machine Learning principles
 
 Retrieval-Augmented Generation concepts
 
-📁 Project Structure
+# Project Structure
 text
 mini_rag/
 ├── app.py                 # Main application entry point
@@ -132,7 +132,7 @@ mini_rag/
 ├── fastapi_backend.py    # FastAPI backend implementation
 ├── requirements.txt      # Python dependencies
 └── README.md            # This file
-🔧 Key Features
+# Key Features
 Professional UI: Clean Gradio interface with custom CSS styling
 
 Dual Architecture: FastAPI backend with Gradio frontend
@@ -149,7 +149,7 @@ Conversation Memory: Recent question history (configurable limit)
 
 Real-time Stats: Processing metrics and database statistics
 
-🛠️ Advanced Configuration
+# Advanced Configuration
 Customizing Chunk Parameters
 python
 # In DocumentProcessor.chunk_text()
@@ -170,7 +170,7 @@ python
 # Vector normalization for cosine similarity
 normalized_embeddings = embeddings / np.linalg.norm(embeddings, axis=1, keepdims=True)
 index = faiss.IndexFlatIP(embedding_dim)  # Inner Product index
-🔍 API Endpoints
+# API Endpoints
 The FastAPI backend provides RESTful endpoints:
 
 POST /api/query - Process user questions
@@ -183,7 +183,7 @@ GET /api/documents/list - List all documents
 
 DELETE /api/documents/clear - Clear database
 
-🧪 Testing & Development
+# Testing & Development
 For development and testing without API keys, the system includes fallback mechanisms:
 
 Mock embeddings for development
@@ -192,10 +192,10 @@ Sample document loading
 
 Graceful API failure handling
 
-📝 License
+# License
 This project is open source and available under the MIT License.
 
-🤝 Contributing
+# Contributing
 Contributions are welcome! Please feel free to submit pull requests, report bugs, or suggest new features.
 
 Built with: Python - Gradio - FastAPI - FAISS - Google AI - Cohere
