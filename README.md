@@ -1,4 +1,5 @@
-Mini RAG System
+#Mini RAG System
+
 A professional Retrieval-Augmented Generation (RAG) system built with modern components for document-based question answering. Features a user-friendly Gradio interface, FastAPI backend, and integration with leading AI services.
 
 🏗️ System Architecture
