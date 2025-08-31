@@ -1,0 +1,12 @@
+gradio==4.44.0
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart
+google-generativeai==0.8.3
+cohere==5.9.1
+faiss-cpu==1.7.4
+numpy==1.24.3
+pandas==2.0.3
+PyMuPDF==1.23.26
+pathlib2==2.3.7
+requests==2.31.0
