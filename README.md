@@ -21,11 +21,7 @@ graph TD
     
     F --> I
     
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style F fill:#fff3e0
-    style M fill:#e8f5e8
-Core Components
+# Core Components
 Frontend: Gradio web interface with professional styling
 
 Backend: FastAPI for API endpoints and async processing
